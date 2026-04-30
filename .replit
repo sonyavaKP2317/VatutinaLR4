@@ -21,4 +21,3 @@ externalPort = 80
 [agent]
 expertMode = true
 
-description = "Планировщик ежедневных задач на Django. 9 разделов. Для развертывания нажмите Run."
