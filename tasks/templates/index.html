@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Task Tracker Ватутина С.А.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Подстраивание ширины страницы под экран устройства-->
+    <title>Task Tracker Ватутина С.А.</title> <!--Заголовок страницы -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> <!--Подключение CSS-фреймворка для стилизации страницы-->
 
   </head>
   <body>
-    {% csrf_token %}
-      <div class="container">
+    {% csrf_token %} <!--Генерация токена для защиты от CSRF-атак при отправке POST-запросов (проверяет, что запрос отправлен с нашего сайта)-->
+      <div class="container"> <!--Контейнер для размещения контента на странице-->
         <br>
         <h2><strong>Task Tracker Ватутина С.А. на 29.04.26 📝</strong></h2>
 
         <br>
 
-         <ul class="list-group">
+         <ul class="list-group"> <!--Превращение маркированного списка в группу элементов Bootstrap с рамками и отступами-->
 
             <li class="list-group-item mb-2">
               1. Проснуться не позже 8:00.
@@ -53,7 +53,7 @@
       </div>
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> <!--Подключение JavaScript-фреймворка для работы с интерактивными элементами страницы-->
 
 
 
