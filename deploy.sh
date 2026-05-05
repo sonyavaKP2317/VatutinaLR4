@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Запуск приложения Task Tracker"
-echo ">>Подгатавливаю служебные таблицы>>"
+echo ">>Применяю миграции баз данных>>"
 python manage.py migrate
 echo ">>Проверяю корректность проекта>>"
 python manage.py check
